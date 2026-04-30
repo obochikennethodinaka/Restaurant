@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none; ;
+}
+
+.childi{
+    height: 50px;
+    width: 100%;
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.chi{
+    height: 25px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+}
+.chii{
+    height: 25px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 60px;
+}
+.childii{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.first{
+    height: 30px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: large;
+}
+.second{
+    height: 30px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 17px;
+    font-weight: lighter;
+}
+.second li{
+    display: inline;
+ margin: 10px;  
+    gap: 10px;
+}
+.third{
+    height: 30px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.third img{
+    height: 20px;
+    width: 20%;
+}
+.backgroundimg{
+    background-image: url(../images/full-street-fashion-slender-figure-beautiful-face-graceful-girl-sitting-on-isolated-white-background-portrait-of-female-model-in-studio-plastic-surgery-and-aesthetic-cosmetology-copy-space-free-photo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+.internal{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 700px;
+}
+.internali{
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20%;
+    margin-right: 40%;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 200px;
+    
+
+}
+.category{
+    position: relative;
+    width: 30%;
+    border-radius: 6px;
+    margin-top: -220px;
+    
+}
+.category img{
+    /* display: block; */
+    height: 300px;
+    width: 100%;
+}
+.overlay{
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    padding: 10px 15px;
+    font-weight: bold;
+    font-size: 16px;
+    color: black;
+    background: white;
+}

@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+..fixed{
+    height: 50px;
+    width: 100%;
+    /* background: red; */
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 10px;
+}
+.fixed li{
+    display: inline;
+    margin: 10px;
+}
+.main{
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.relative{
+    height: 500px;
+    width: 50%;
+    background: green;
+    position: relative;
+}
+.box1{
+    height: 50px;
+    width: 50px;
+    background: red;
+    position: absolute;
+    top: -10;
+    left: -10px;
+}
+.box2{
+    height: 50px;
+    width: 50px;
+    background: gold;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+}
+.box3{
+    height: 50px;
+    width: 50px;
+    background: black;
+    position: absolute;
+    bottom: -10px;
+    left: -10px;
+    color: white;
+}
+.box4{
+    height: 50px;
+    width: 50px;
+    background: blue;
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+
+}
+.main2{
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.z-index{
+    height: 400px;
+    width: 50%;
+    position: relative;
+    background-color: black;
+}
+.boxi{
+    height: 100px;
+    width: 100px;
+    background: red;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    z-index: 1;
+}
+.boxii{
+    height: 100px;
+    width: 100px;
+    background: blue;
+    top: 40px;
+    left: 40px;
+    position: absolute;
+    z-index: 2;
+}
+.boxiii{
+    height: 100px;
+    width: 100px;
+    background: orangered;
+    top: 60px;
+    left: 60px;
+    position: absolute;
+    z-index: 3;
+}
+.boxiv{
+    height: 100px;
+    width: 100px;
+    background: yellowgreen;
+    top: 80px;
+    left: 80px;
+    position: absolute;
+    z-index: 4;
+}

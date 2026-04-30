@@ -1,0 +1,57 @@
+a:link {
+    color: red;
+}
+
+a:visited{
+    color: blue;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: hotpink;
+}
+.btn{
+    height: 50px;
+    width: 150px;
+    display: flex;
+    background: blue;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.btn:hover{
+    height: 100px;
+    width: 100%;
+    background-color: yellow;
+    color: white;
+    display: none;
+}
+.parent:hover .hidden-p{
+    display: flex;
+}
+
+li:first-child{
+    color: red;
+}
+
+p i:first-child{
+    color: green;
+}
+p:first-child i{
+    color: blue;
+}
+h6::first-line{
+    color: hotpink;
+}
+h6::first-letter{
+    color: hotpink;
+    font-size: 50px;
+}
+h1::before{
+    content: url(../images/hero-image.jpg);
+}

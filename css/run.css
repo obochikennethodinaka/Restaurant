@@ -1,0 +1,11 @@
+.hidden-p{
+    height: 100px;
+    width: 100%;
+    background-color: yellow;
+    color: white;
+    display: none;
+}
+
+.parent :hover .hidden-p{
+    display: block;
+}

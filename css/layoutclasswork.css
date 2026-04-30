@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.main{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background: red; */
+    color: white;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 50%;
+    font-weight: bold;
+    font-size: 20PX;
+}
+.sublogo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 90%;
+    /* background-color: brown; */
+    font-weight: bold;
+}
+.sublogo li{
+    display: inline;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 50%;
+    color: white;
+    border: solid white;
+    padding: 20px;
+}
+.content{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.writeup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    
+}
+.details{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.details h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    
+}
+.first{
+    padding: 15px 40px;
+    background: blue;
+    color: white;
+    cursor: pointer;
+    border: solid white;
+    font-weight: bold;
+
+}
+.second{
+    padding: 10px 20px;
+    border: solid white;
+    cursor: pointer;
+    font-weight: bold;
+}

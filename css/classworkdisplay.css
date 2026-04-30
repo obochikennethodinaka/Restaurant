@@ -1,0 +1,26 @@
+.main{
+    height: 300px;
+    width: 100%;
+    background: gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.writeup{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    height: 250px;
+    width: 50%;
+}

@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <!-- Bootstrap 5 CSS + Icons + JS Bundle (required for navbar toggler, no custom JS) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Feane | Menu</title>
+    <style>
+        /* Custom styling to match original design – no structural changes */
+        body {
+            overflow-x: hidden;
+            background-color: #fff;
+        }
+        .bg-dark-custom {
+            background-color: #1f1f1f;
+        }
+        .text-orange {
+            color: #ff6b00;
+        }
+        .btn-orange {
+            background-color: #ff6b00;
+            color: white;
+            border-radius: 30px;
+            padding: 10px 25px;
+            font-weight: bold;
+            border: none;
+            transition: 0.2s;
+        }
+        .btn-orange:hover {
+            background-color: #e55a00;
+            color: white;
+        }
+        .nav-link-feane {
+            color: white !important;
+            font-weight: 500;
+            text-transform: uppercase;
+            margin: 0 5px;
+        }
+        .nav-link-feane:hover {
+            color: #ff6b00 !important;
+        }
+        .hero-menu {
+            background: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('../images/hero-bg.jpg') center/cover no-repeat;
+            min-height: 350px;
+            display: flex;
+            align-items: center;
+        }
+        .menu-filter {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            list-style: none;
+            padding: 0;
+            margin: 30px 0 40px;
+        }
+        .menu-filter li {
+            background: #f0f0f0;
+            padding: 8px 28px;
+            border-radius: 40px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: 0.2s;
+        }
+        .menu-filter li.active, .menu-filter li:hover {
+            background: #ff6b00;
+            color: white;
+        }
+        .product-card {
+            background: #f9f9f9;
+            border-radius: 20px;
+            padding: 25px;
+            text-align: center;
+            height: 100%;
+            transition: 0.2s;
+        }
+        .product-card img {
+            max-width: 150px;
+            margin-bottom: 15px;
+        }
+        .footer {
+            background: #111;
+            color: #ccc;
+            padding: 50px 0 30px;
+            margin-top: 60px;
+        }
+        .footer h1 {
+            color: #ff6b00;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+        }
+        .footer p {
+            line-height: 1.6;
+        }
+        @media (max-width: 768px) {
+            .hero-menu {
+                min-height: 250px;
+            }
+            .product-card img {
+                max-width: 120px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- ========== BOOTSTRAP NAVBAR (fully responsive) ========== -->
+<nav class="navbar navbar-expand-lg bg-dark-custom py-3">
+    <div class="container">
+        <a class="navbar-brand text-white fw-bold fs-2" href="#">feane</a>
+        <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuNavbar">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-2">
+                <li class="nav-item"><a class="nav-link nav-link-feane" href="/index.html">home</a></li>
+                <li class="nav-item"><a class="nav-link nav-link-feane active text-orange" href="../views/menu.html">menu</a></li>
+                <li class="nav-item"><a class="nav-link nav-link-feane" href="../views/about.html">about</a></li>
+                <li class="nav-item"><a class="nav-link nav-link-feane" href="../views/booktable.html">book-table</a></li>
+            </ul>
+            <div class="d-flex align-items-center gap-3">
+                <img src="/images/image-removebg-preview (17).png" height="28" alt="cart">
+                <img src="/images/image-removebg-preview (18).png" height="28" alt="search">
+                <img src="/images/image-removebg-preview (20).png" height="28" alt="user">
+                <button class="btn-orange"><a href="../views/booktable.html" class="text-white text-decoration-none">order online</a></button>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- ========== HERO SECTION (optional header area) ========== -->
+<div class="hero-menu">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <!-- Empty hero – preserves layout spacing -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ========== OUR MENU TITLE ========== -->
+<div class="container text-center mt-5">
+    <h3 class="display-5 fw-bold">our menu</h3>
+</div>
+
+<!-- ========== MENU FILTER TABS ========== -->
+<div class="container">
+    <ul class="menu-filter">
+        <li class="active">all</li>
+        <li>burger</li>
+        <li>pizza</li>
+        <li>pasta</li>
+        <li>fries</li>
+    </ul>
+</div>
+
+<!-- ========== PRODUCT GRID (3 rows of 3 cards) ========== -->
+<div class="container">
+    <!-- Row 1 -->
+    <div class="row g-4">
+        <div class="col-md-6 col-lg-4">
+            <div class="product-card">
+                <img src="../images/f1.png" alt="food item">
+                <h3>Card Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi reprehenderit hic facere accusantium maiores esse sapiente ratione enim voluptate,</p>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="product-card">
+                <img src="../images/f2.png" alt="food item">
+                <h3>Card Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi reprehenderit hic facere accusantium maiores esse sapiente ratione enim voluptate,</p>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="product-card">
+                <img src="../images/f3.png" alt="food item">
+                <h3>Card Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi reprehenderit hic facere accusantium maiores esse sapiente ratione enim voluptate,</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="row g-4 mt-3">
+        <div class="col-md-6 col-lg-4">
+            <div class="product-card">
+                <img src="../images/f4.png" alt="food item">
+                <h3>Card Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi reprehenderit hic facere accusantium maiores esse sapiente ratione enim voluptate,</p>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="product-card">
+                <img src="../images/f5.png" alt="food item">
+                <h3>Card Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi reprehenderit hic facere accusantium maiores esse sapiente ratione enim voluptate,</p>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="product-card">
+                <img src="../images/f6.png" alt="food item">
+                <h3>Card Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi reprehenderit hic facere accusantium maiores esse sapiente ratione enim voluptate,</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Row 3 -->
+    <div class="row g-4 mt-3">
+        <div class="col-md-6 col-lg-4">
+            <div class="product-card">
+                <img src="../images/f7.png" alt="food item">
+                <h3>Card Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi reprehenderit hic facere accusantium maiores esse sapiente ratione enim voluptate,</p>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="product-card">
+                <img src="../images/f8.png" alt="food item">
+                <h3>Card Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi reprehenderit hic facere accusantium maiores esse sapiente ratione enim voluptate,</p>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="product-card">
+                <img src="../images/f9.png" alt="food item">
+                <h3>Card Title</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi reprehenderit hic facere accusantium maiores esse sapiente ratione enim voluptate,</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- View More button -->
+    <div class="text-center mt-5">
+        <button class="btn-orange px-5 py-2">View More</button>
+    </div>
+</div>
+
+<!-- ========== FOOTER (three columns, responsive) ========== -->
+<footer class="footer">
+    <div class="container">
+        <div class="row gy-5">
+            <div class="col-md-4">
+                <div class="con">
+                    <h1>Contact Us</h1>
+                    <p>
+                        Location<br>
+                        call +01 1234567890<br>
+                        demo@gmail.com
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="up">
+                    <h1>Feane</h1>
+                    <p>Necessary Making this the first true generator<br> on the internet. it uses a dictionary of over 200  <br> Latin words, combined with</p>
+                    <p class="mt-4">© 2025 All Rights Reserved By Free Html Templates</p>
+                    <p>© Distributed by ThemeWagon</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="open">
+                    <h1>Opening Hours</h1>
+                    <p>Everyday</p>
+                    <p>10:00 Am - 10:00 Pm</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Bootstrap JS Bundle (required for navbar toggle, no custom JavaScript) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.demo{
+    background-color:red;   
+    height: 100px;
+    width: 50% ;
+    margin-bottom: 20px;
+}
+.pbox{
+    margin: 20px;
+    width: 600px;
+}
+.boxi{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    margin:10px;
+    display: inline;
+}
+.boxii{
+  background-color: red;
+  height: 50px;
+    width: 50px;
+    margin:10px;
+    display: inline;
+}
+.boxii{
+    background-color:red;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    display: inline;
+}
+.boxiii{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    display: inline;
+}
+.boxiv{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    display: inline;
+}
+/* block */
+.pbox1{
+    margin: 20px;
+    width: 600px;
+}
+.box1{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    display: block;
+}
+/* flex */
+/* eg one */
+.pbox2{
+    margin: 20px;
+    width: 600px;
+    display: flex;
+}
+.box{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+.uli{
+    background-color: blue;
+    display: flex;
+}
+.main{
+    height: 50px;
+    height: 300px;
+    width: 100px;
+    background: grey;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.writeup{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image img{
+    height: 200px;
+    width: 100px;
+}

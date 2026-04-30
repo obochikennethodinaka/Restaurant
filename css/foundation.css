@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body{
+    background: antiquewhite;
+}
+
+.anchor {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    transform: translate(340%, 500%);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 40px;
+    font-family: verdana;
+    box-shadow: 5px 5px 10px red;
+
+}
+
+.anchor:after{
+    content: 'Move Up';
+}
+
+.head{
+    height: 1000px;
+    width: 100%;
+}
+.head1{
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    color: wheat;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.found{
+    font-size: 17px;
+    margin: 10px;
+}
+.head2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: lighter;
+    height: 25px;
+    width: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.background{
+    background-color: antiquewhite;
+    /* background-image: url(../images/full-street-fashion-slender-figure-beautiful-face-graceful-girl-sitting-on-isolated-white-background-portrait-of-female-model-in-studio-plastic-surgery-and-aesthetic-cosmetology-copy-space-free-photo.jpg); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+    margin-top: -945px;
+}
+.inner{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 750px;
+}
+.inner1{
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20%;
+    margin-right: 40%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.childii{
+    height: 57px !important;
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-evenly !important;
+    background-color: black !important;
+    color: wheat !important;
+}
+.first{
+    height: 250px !important;
+    width: 600px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-weight: bold !important;
+    font-size: large !important;
+}
+.first h3{
+    font-style: italic !important;
+    font-size: 25px !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    margin-top: 10px !important;
+}
+.second{
+    height: 30px !important;
+    width: 45% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-around !important;
+    font-size: 17px !important;
+    font-weight: lighter !important;
+    margin-top: 15px !important;
+}
+.second li{
+    display: inline !important;
+ margin: 10px !important;  
+    gap: 10px !important;
+}
+.second a{
+    color: wheat !important;
+    text-decoration: none !important;
+}
+.third{
+    height: 30px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.third img{
+    height: 20px;
+    width: 20%;
+}
+
+.img1{
+    height: 300px;
+    width: 400px;
+    margin-top: -250px;
+    border: 5px solid red;
+    border-radius: 10px;
+    margin-left: -500px;
+      box-shadow: 200px 400px 10000000000px red;
+}
+.about-details{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-weight: lighter;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 25px;
+    margin: 70px;
+}
+
+.img{
+     height: 300px;
+     width: 300px;
+     margin-top: -40px;
+     margin-left: 250px;
+       border: 5px solid red;
+        box-shadow: 0px 0px 40px red;
+}
+.content{
+    display: block !important;
+    justify-content: center !important;
+    align-items: center !important;
+    float: right !important;
+    margin-top: -250px !important;
+    margin-right: 190px !important;
+}
+.the{
+    color: red !important;
+    font-style: italic !important;
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+.his{
+    font-family: 'Times New Roman', Times, serif !important;
+    font-weight: lighter !important;
+    font-size: 22px !important;
+}
+
+.promotion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+}
+.promotion1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.promotions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 22px;
+    font-style: italic;
+}
+.promotions2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 22px;
+    font-style: italic;
+}
+
+ .card-container1{
+            display: flex !important;
+            flex-wrap: wrap !important;
+            gap: 20px !important;
+            justify-content: center !important;
+            align-items: center !important;
+            margin-left: 20px!important;
+            margin-top: 50px;
+            margin-left: 80px !important;
+            
+          
+        }
+        .card1{
+            font-size: 20px !important;
+            height: 530px !important;
+            width: 400px !important;
+            border: 1px solid #ccc !important;
+            border-radius: 8px !important;
+            overflow: hidden !important;
+            box-shadow: 0 2px 8px rgb(0, 0, 0, 0.1) !important;
+            margin: 20px auto !important;
+            font-family: sans-serif !important;
+            display: grid !important;
+            margin-left: -30px !important;
+            background-color: white !important;
+            
+          
+        }
+           .card1 img{
+            margin-top: 10px;
+            width: 90%;
+            height: 300px;
+            display: block;
+            border-radius: 0px 0px 0px 100px;
+            background-color: white;
+        }
+        .btn{
+            height: 40px;
+            width: 200px;
+            margin-left: 100px;
+            margin-top: -100px;
+        }
+        .card-content1{
+            padding: 16px;
+            background-color: white;
+            margin-top: 150px;
+            margin-left: 70px;
+        }
+        .card-content1 h3{
+            margin-top: 0;
+            color: black;
+        }
+        .card-content1 p{
+            color: black;
+        }
+        .btn1{
+            margin-top: 30px;
+        }

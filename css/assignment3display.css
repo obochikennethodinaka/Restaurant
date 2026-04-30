@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.main{
+    height: 600px;
+    width: 100%;
+}
+.rowlogo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: red;
+    height: 50px;
+    width: 100%;
+    color: white;
+}
+.text{
+    margin: 20%;
+}
+.class{
+    display: flex;
+    flex: 1;
+    gap: 10px;
+}
+.circle{
+    height:20px;
+    width: 20px;
+    background: white;
+    color: white;
+    border-radius: 50%
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 30px;
+}
+.logo1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar li{
+    display: inline;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.navbar a{
+    color: black;
+    font-weight: bold;
+}
+.navbar a:hover{
+    color: blue;
+}
+.btn{
+    height: 100px;
+    width: 150%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    background: red;
+    font-size: 20px;
+}
+.background{
+    background-image: url(images/WhatsApp\ Image\ assignment2025-07-24\ at\ 15.39.22_8d67c765.jpg);
+    height: 600px;
+    width: 100%;
+    margin: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.background.writeup{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.writeup{
+    position: absolute;
+     top: 30px;
+    left: 10%;
+    justify-content: center;
+    align-items: center;
+}
+.writeup p{
+    font-weight: bold;
+    justify-content: center;
+    margin: 100px;    
+    font-size: 30px;
+    top: 30%;
+}
+.writeup h1{
+    font-size: 40px;
+    margin: 100px;      
+    letter-spacing: 2px;
+}
+.writeup .first{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: black;
+    color: red;
+    border-radius: 5px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.writeup .second{
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: white;
+    color: brown;
+    font-weight: bold;
+    border-radius: 5px;
+    
+}

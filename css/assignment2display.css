@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration:none ;
+    list-style-type: none;
+}
+.main{
+     height: 600px;
+    width:100%;
+}
+.nav{
+    margin-top: 30px;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.logo{
+    font-weight: bold;
+    font-size: 30px;
+}
+.navbar li{
+    display: inline;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.navbar a{
+    color: black;
+}
+.navbar a:hover{
+    color: blue;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    font-size:30px;
+}
+.writeup{
+    height: 300px;
+    width:200%;
+    justify-content: center;
+        align-items: center;
+        display: flex;
+        font-weight: bold;
+        font-size: 30px;
+        margin-right: 800px;
+        margin-top: 50px;
+}
+.writeup p{
+    font-size: 30px;
+margin-top: 150px; 
+}
+.writeup h1{
+    font-size: 30px;
+}
+.writeup.btn{
+    height: 40px;
+    width:120px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.image{
+    height: 25px;
+    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    margin-left: 500px;
+    margin-bottom: 300px;
+}
+.image img{
+    height: 550px;
+    width: 150%;
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+.box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    margin-top: 80px;
+}
+.sublogo{
+    display: inline;
+    justify-content: space-around;
+    align-items: center;
+}
+.sublogo li{
+    display: inline;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+    
+
+}
+.sublogo a{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+.sublogo a:hover{
+    color: blue;
+}
+.boxii{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.flexwrapi{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    margin-top: 70px;
+}
+.flexwrapi p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.flexwrap{
+    height: 400px;
+    width: 100%;
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    height: 40px;
+    width:120px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: grey;
+    height: 300px;
+    width: 100%;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.footerwriteup{
+    display: block;
+    justify-content:space-around;
+    align-items: center;
+    margin: 50px;
+}
+.footerwriteup p{
+   font-size: 18px;
+   font-weight: bold; 
+}
+.btn2{
+    height: 40px;
+    width:120px;
+    background: black;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 5px;
+    cursor: pointer; 
+}

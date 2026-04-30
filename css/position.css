@@ -1,0 +1,59 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: static;
+    margin: 2px;
+}
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    margin: 2px;
+    margin-top: 20px;
+    z-index: -1;
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+    position: relative;
+    margin: 2px;
+    margin-top: 20px;
+    left: 1000px;
+    top: 100px;
+}
+.bottom-right{
+    width: 200px;
+    height: 50px;
+    background-color: green;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transform: rotate(130deg);
+    transform: scaleX(-1);
+}
+.bottom-left{
+    width: 200px;
+    height: 50px;
+    background-color: green;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.nav-stick{
+    width: 100%;
+    height: 50px;
+    background-color: purple;
+    position: sticky;
+    top: 200px;
+}

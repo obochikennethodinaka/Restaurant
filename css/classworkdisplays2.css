@@ -1,0 +1,25 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+.background{
+    background-image: url(images/WhatsApp\ Image\ assignment2025-07-24\ at\ 15.39.22_8d67c765.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+}

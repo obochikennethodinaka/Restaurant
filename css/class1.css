@@ -1,0 +1,50 @@
+.second{
+    background-color: blueviolet;
+    justify-content: space-around;
+    text-align: center;
+    display: flex;
+}
+
+.second li{
+    display: inline;
+    margin-left: 40px;
+}
+.backgroundimg{
+    background-image: url(../images/full-street-fashion-slender-figure-beautiful-face-graceful-girl-sitting-on-isolated-white-background-portrait-of-female-model-in-studio-plastic-surgery-and-aesthetic-cosmetology-copy-space-free-photo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+
+.internal{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-left: 850px;
+}
+.internali{
+    display: block;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20%;
+    margin-right: 40%;
+}
+
+.one{
+    background: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    
+
+}
+
+.wide{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 200px;
+    margin-top: -50px;
+}
